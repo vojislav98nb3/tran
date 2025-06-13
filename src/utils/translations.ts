@@ -29,19 +29,12 @@ export const translations = {
     pricingTitle: 'Cenovnik Aerodromskih Transfera | Fiksne Cene',
     pricingSubtitle: 'Transparentne cene aerodromskog transfera • Bez skrivenih troškova • Plaćanje po dolasku',
     
-// po vozilo do 4 osobe piše tu ispod
-perVehicle: '',     available247: 'Dostupno 24/7',
+    perVehicle: 'po vozilu (do 3 osobe + 1500 po osobi)',
+    available247: 'Dostupno 24/7',
     waitingIncluded: 'Besplatno čekanje 60min',
     
-    // Routes - SEO optimized
-    routes: {
-      'novi-sad-aerodrom': 'Novi Sad ⇄ Aerodrom Nikola Tesla Beograd',
-      'novi-sad-temisvar': 'Novi Sad ⇄ Temišvar (Timișoara)',
-      'novi-sad-budimpesta': 'Novi Sad ⇄ Budimpešta Aerodrom',
-      'novi-sad-nis': 'Novi Sad ⇄ Niš Konstantin Veliki',
-      'novi-sad-segedin': 'Novi Sad ⇄ Segedin (Szeged)',
-      'novi-sad-zagreb': 'Novi Sad ⇄ Zagreb Aerodrom'
-    },
+    // Routes - will be loaded from Firebase
+    routes: {},
     
     // Features - SEO optimized
     whyChooseUs: 'Zašto Transferko za Aerodromski Transfer?',
@@ -70,15 +63,8 @@ perVehicle: '',     available247: 'Dostupno 24/7',
     locationValue: 'Novi Sad, Vojvodina, Srbija',
     coverage: 'Aerodromski transfer za celu Srbiju i region',
     
-    // WhatsApp messages for specific routes
-    whatsappMessages: {
-      'novi-sad-aerodrom': 'Zdravo! Zainteresovan/a sam za aerodromski transfer Novi Sad - Aerodrom Beograd.',
-      'novi-sad-temisvar': 'Zdravo! Zainteresovan/a sam za transfer Novi Sad - Temišvar.',
-      'novi-sad-budimpesta': 'Zdravo! Zainteresovan/a sam za transfer Novi Sad - Budimpešta.',
-      'novi-sad-nis': 'Zdravo! Zainteresovan/a sam za transfer Novi Sad - Niš.',
-      'novi-sad-segedin': 'Zdravo! Zainteresovan/a sam za transfer Novi Sad - Segedin.',
-      'novi-sad-zagreb': 'Zdravo! Zainteresovan/a sam za transfer Novi Sad - Zagreb.'
-    }
+    // WhatsApp messages - will be loaded from Firebase
+    whatsappMessages: {}
   },
   
   en: {
@@ -114,15 +100,8 @@ perVehicle: '',     available247: 'Dostupno 24/7',
     available247: 'Available 24/7',
     waitingIncluded: 'Free waiting 60min',
     
-    // Routes - SEO optimized
-    routes: {
-      'novi-sad-aerodrom': 'Novi Sad ⇄ Belgrade Nikola Tesla Airport',
-      'novi-sad-temisvar': 'Novi Sad ⇄ Timișoara Airport',
-      'novi-sad-budimpesta': 'Novi Sad ⇄ Budapest Airport',
-      'novi-sad-nis': 'Novi Sad ⇄ Niš Airport',
-      'novi-sad-segedin': 'Novi Sad ⇄ Szeged',
-      'novi-sad-zagreb': 'Novi Sad ⇄ Zagreb Airport'
-    },
+    // Routes - will be loaded from Firebase
+    routes: {},
     
     // Features - SEO optimized
     whyChooseUs: 'Why Choose Transferko for Airport Transfer?',
@@ -151,15 +130,8 @@ perVehicle: '',     available247: 'Dostupno 24/7',
     locationValue: 'Novi Sad, Vojvodina, Serbia',
     coverage: 'Airport transfer for entire Serbia and region',
     
-    // WhatsApp messages for specific routes
-    whatsappMessages: {
-      'novi-sad-aerodrom': 'Hello! I am interested in airport transfer Novi Sad - Belgrade Airport.',
-      'novi-sad-temisvar': 'Hello! I am interested in transfer Novi Sad - Timișoara.',
-      'novi-sad-budimpesta': 'Hello! I am interested in transfer Novi Sad - Budapest.',
-      'novi-sad-nis': 'Hello! I am interested in transfer Novi Sad - Niš.',
-      'novi-sad-segedin': 'Hello! I am interested in transfer Novi Sad - Szeged.',
-      'novi-sad-zagreb': 'Hello! I am interested in transfer Novi Sad - Zagreb.'
-    }
+    // WhatsApp messages - will be loaded from Firebase
+    whatsappMessages: {}
   },
   
   ru: {
@@ -195,15 +167,8 @@ perVehicle: '',     available247: 'Dostupno 24/7',
     available247: 'Доступно 24/7',
     waitingIncluded: 'Бесплатное ожидание 60мин',
     
-    // Routes - SEO optimized
-    routes: {
-      'novi-sad-aerodrom': 'Нови Сад ⇄ Аэропорт Никола Тесла Белград',
-      'novi-sad-temisvar': 'Нови Сад ⇄ Аэропорт Тимишоара',
-      'novi-sad-budimpesta': 'Нови Сад ⇄ Аэропорт Будапешт',
-      'novi-sad-nis': 'Нови Сад ⇄ Аэропорт Ниш',
-      'novi-sad-segedin': 'Нови Сад ⇄ Сегед',
-      'novi-sad-zagreb': 'Нови Сад ⇄ Аэропорт Загреб'
-    },
+    // Routes - will be loaded from Firebase
+    routes: {},
     
     // Features - SEO optimized
     whyChooseUs: 'Почему выбирают Transferko для трансфера в аэропорт?',
@@ -232,31 +197,12 @@ perVehicle: '',     available247: 'Dostupno 24/7',
     locationValue: 'Нови Сад, Воеводина, Сербия',
     coverage: 'Трансфер в аэропорт по всей Сербии и региону',
     
-    // WhatsApp messages for specific routes
-    whatsappMessages: {
-      'novi-sad-aerodrom': 'Здравствуйте! Меня интересует трансфер в аэропорт Нови Сад - Аэропорт Белград.',
-      'novi-sad-temisvar': 'Здравствуйте! Меня интересует трансфер Нови Сад - Тимишоара.',
-      'novi-sad-budimpesta': 'Здравствуйте! Меня интересует трансфер Нови Сад - Будапешт.',
-      'novi-sad-nis': 'Здравствуйте! Меня интересует трансфер Нови Сад - Ниш.',
-      'novi-sad-segedin': 'Здравствуйте! Меня интересует трансфер Нови Сад - Сегед.',
-      'novi-sad-zagreb': 'Здравствуйте! Меня интересует трансфер Нови Сад - Загреб.'
-    }
+    // WhatsApp messages - will be loaded from Firebase
+    whatsappMessages: {}
   }
 };
 
-// Function to get translations with custom routes support
+// Function to get translations with Firebase routes support
 export const getTranslations = (language: 'sr' | 'en' | 'ru') => {
-  const customTranslations = JSON.parse(localStorage.getItem('transferko-translations') || '{}');
-  
-  return {
-    ...translations[language],
-    routes: {
-      ...translations[language].routes,
-      ...customTranslations[language]?.routes
-    },
-    whatsappMessages: {
-      ...translations[language].whatsappMessages,
-      ...customTranslations[language]?.whatsappMessages
-    }
-  };
+  return translations[language];
 };

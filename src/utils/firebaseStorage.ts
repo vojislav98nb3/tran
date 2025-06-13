@@ -41,7 +41,7 @@ const defaultRoutes: RoutePrice[] = [
     id: 'novi-sad-temisvar',
     price: '12.000',
     icon: '🚗',
-    priceDescription: 'po vozilu (do 4 osobe)',
+    priceDescription: 'po vozilu (do 3 osobe + 1500 po osobi)',
     names: {
       sr: 'Novi Sad ⇄ Temišvar (Timișoara)',
       en: 'Novi Sad ⇄ Timișoara Airport',
@@ -57,7 +57,7 @@ const defaultRoutes: RoutePrice[] = [
     id: 'novi-sad-budimpesta',
     price: '23.500',
     icon: '🛫',
-    priceDescription: 'po vozilu (do 4 osobe)',
+    priceDescription: 'po vozilu (do 3 osobe + 1500 po osobi)',
     names: {
       sr: 'Novi Sad ⇄ Budimpešta Aerodrom',
       en: 'Novi Sad ⇄ Budapest Airport',
@@ -73,7 +73,7 @@ const defaultRoutes: RoutePrice[] = [
     id: 'novi-sad-nis',
     price: '15.000',
     icon: '🚙',
-    priceDescription: 'po vozilu (do 4 osobe)',
+    priceDescription: 'po vozilu (do 3 osobe + 1500 po osobi)',
     names: {
       sr: 'Novi Sad ⇄ Niš Konstantin Veliki',
       en: 'Novi Sad ⇄ Niš Airport',
@@ -89,7 +89,7 @@ const defaultRoutes: RoutePrice[] = [
     id: 'novi-sad-segedin',
     price: '8.000',
     icon: '🚐',
-    priceDescription: 'po vozilu (do 4 osobe)',
+    priceDescription: 'po vozilu (do 3 osobe + 1500 po osobi)',
     names: {
       sr: 'Novi Sad ⇄ Segedin (Szeged)',
       en: 'Novi Sad ⇄ Szeged',
@@ -105,7 +105,7 @@ const defaultRoutes: RoutePrice[] = [
     id: 'novi-sad-zagreb',
     price: '35.000',
     icon: '🛬',
-    priceDescription: 'po vozilu (do 4 osobe)',
+    priceDescription: 'po vozilu (do 3 osobe + 1500 po osobi)',
     names: {
       sr: 'Novi Sad ⇄ Zagreb Aerodrom',
       en: 'Novi Sad ⇄ Zagreb Airport',

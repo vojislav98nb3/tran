@@ -28,7 +28,6 @@ export const translations = {
     // Pricing - SEO optimized
     pricingTitle: 'Cenovnik Aerodromskih Transfera | Fiksne Cene',
     pricingSubtitle: 'Transparentne cene aerodromskog transfera • Bez skrivenih troškova • Plaćanje po dolasku',
-    
     perVehicle: 'po vozilu (do 3 osobe + 1500 po osobi)',
     available247: 'Dostupno 24/7',
     waitingIncluded: 'Besplatno čekanje 60min',
